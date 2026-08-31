@@ -1,0 +1,316 @@
+{
+  "metadata": {
+    "experiment": "EXP09 \u2014 Beatriz Fire Test (LoRA Adaptation & Epistemic Retention Benchmark)",
+    "author": "Eduardo Ayala Tovar",
+    "year": "2026",
+    "license": "PolyForm Noncommercial License 1.0.0",
+    "device": "cuda",
+    "benchmark_size": 8,
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "epochs": 8,
+    "draws_per_epoch": 60
+  },
+  "results": {
+    "seed_11": {
+      "NONE": {
+        "b_updates": 480,
+        "base_perplexity": 102.5137336652246,
+        "final_perplexity": 76.97146822384997,
+        "final_margin": 0.12857294082641602,
+        "history": [
+          {
+            "epoch": 1,
+            "loss": 2.2037438730398815,
+            "truth_margin": 0.5779217481613159
+          },
+          {
+            "epoch": 2,
+            "loss": 1.985262676080068,
+            "truth_margin": 0.6227231323719025
+          },
+          {
+            "epoch": 3,
+            "loss": 1.7865042626857757,
+            "truth_margin": 0.6210137754678726
+          },
+          {
+            "epoch": 4,
+            "loss": 1.6970723778009416,
+            "truth_margin": 0.539986252784729
+          },
+          {
+            "epoch": 5,
+            "loss": 1.5723880132039387,
+            "truth_margin": 0.5750371068716049
+          },
+          {
+            "epoch": 6,
+            "loss": 1.5631596217552821,
+            "truth_margin": 0.5418156534433365
+          },
+          {
+            "epoch": 7,
+            "loss": 1.4210435092449187,
+            "truth_margin": 0.35469962656497955
+          },
+          {
+            "epoch": 8,
+            "loss": 1.3850345075130464,
+            "truth_margin": 0.12857294082641602
+          }
+        ],
+        "model_hash": "0fbc01837dce5883af6471eed4762348cf0528cd024838a7872945ae2380778b"
+      },
+      "BEATRIZ": {
+        "b_updates": 401,
+        "base_perplexity": 102.5137336652246,
+        "final_perplexity": 139.1247374008245,
+        "final_margin": 3.7290730513632298,
+        "history": [
+          {
+            "epoch": 1,
+            "loss": 2.3785631012916566,
+            "truth_margin": 0.660394012928009
+          },
+          {
+            "epoch": 2,
+            "loss": 2.0714867607406946,
+            "truth_margin": 0.8703306913375854
+          },
+          {
+            "epoch": 3,
+            "loss": 1.8272546296026193,
+            "truth_margin": 1.1981559544801712
+          },
+          {
+            "epoch": 4,
+            "loss": 1.5403989089859857,
+            "truth_margin": 1.5959705263376236
+          },
+          {
+            "epoch": 5,
+            "loss": 1.399813657882167,
+            "truth_margin": 2.036320313811302
+          },
+          {
+            "epoch": 6,
+            "loss": 1.206399390903803,
+            "truth_margin": 2.5750366151332855
+          },
+          {
+            "epoch": 7,
+            "loss": 1.0217986282180338,
+            "truth_margin": 3.2111415788531303
+          },
+          {
+            "epoch": 8,
+            "loss": 0.8242367763410915,
+            "truth_margin": 3.7290730513632298
+          }
+        ],
+        "model_hash": "e279e166b39a4d21396b75ab2ee45d6e2d91b4f978854f034ed3b86123cf2195"
+      }
+    },
+    "seed_22": {
+      "NONE": {
+        "b_updates": 480,
+        "base_perplexity": 102.5137336652246,
+        "final_perplexity": 76.37014083862982,
+        "final_margin": 0.07851089537143707,
+        "history": [
+          {
+            "epoch": 1,
+            "loss": 2.216411962111791,
+            "truth_margin": 0.553817868232727
+          },
+          {
+            "epoch": 2,
+            "loss": 1.9766590535640716,
+            "truth_margin": 0.5922247469425201
+          },
+          {
+            "epoch": 3,
+            "loss": 1.8331049342950185,
+            "truth_margin": 0.601212203502655
+          },
+          {
+            "epoch": 4,
+            "loss": 1.7644276956717173,
+            "truth_margin": 0.5717244744300842
+          },
+          {
+            "epoch": 5,
+            "loss": 1.542383474111557,
+            "truth_margin": 0.5156643688678741
+          },
+          {
+            "epoch": 6,
+            "loss": 1.4471419513225556,
+            "truth_margin": 0.471982404589653
+          },
+          {
+            "epoch": 7,
+            "loss": 1.3456160932779313,
+            "truth_margin": 0.3067699521780014
+          },
+          {
+            "epoch": 8,
+            "loss": 1.2458254665136337,
+            "truth_margin": 0.07851089537143707
+          }
+        ],
+        "model_hash": "e9d479dd2b8cb8c77a794dfdbadeda8f9e1c857e862d0503241d8e4adeb22782"
+      },
+      "BEATRIZ": {
+        "b_updates": 384,
+        "base_perplexity": 102.5137336652246,
+        "final_perplexity": 131.7983719617467,
+        "final_margin": 3.4637174159288406,
+        "history": [
+          {
+            "epoch": 1,
+            "loss": 2.486630931813666,
+            "truth_margin": 0.6558101177215576
+          },
+          {
+            "epoch": 2,
+            "loss": 2.0395290048754946,
+            "truth_margin": 0.8604561686515808
+          },
+          {
+            "epoch": 3,
+            "loss": 1.8695654386565799,
+            "truth_margin": 1.1135774850845337
+          },
+          {
+            "epoch": 4,
+            "loss": 1.637169862985611,
+            "truth_margin": 1.5554304718971252
+          },
+          {
+            "epoch": 5,
+            "loss": 1.3862636786586833,
+            "truth_margin": 2.1951741874217987
+          },
+          {
+            "epoch": 6,
+            "loss": 1.3446488933016856,
+            "truth_margin": 2.4352867603302
+          },
+          {
+            "epoch": 7,
+            "loss": 1.0451115868812384,
+            "truth_margin": 2.9467002898454666
+          },
+          {
+            "epoch": 8,
+            "loss": 0.9878693675765624,
+            "truth_margin": 3.4637174159288406
+          }
+        ],
+        "model_hash": "9f72f907fe80be05e446de61d7b2975a3f4cd1a92275f5109f0459aa6455c195"
+      }
+    },
+    "seed_33": {
+      "NONE": {
+        "b_updates": 480,
+        "base_perplexity": 102.5137336652246,
+        "final_perplexity": 72.98584805906869,
+        "final_margin": 0.20133574306964874,
+        "history": [
+          {
+            "epoch": 1,
+            "loss": 2.122965568304062,
+            "truth_margin": 0.6048367619514465
+          },
+          {
+            "epoch": 2,
+            "loss": 2.0421937545140585,
+            "truth_margin": 0.6380275785923004
+          },
+          {
+            "epoch": 3,
+            "loss": 1.7235134720802308,
+            "truth_margin": 0.6569983661174774
+          },
+          {
+            "epoch": 4,
+            "loss": 1.7347166498502096,
+            "truth_margin": 0.6505733132362366
+          },
+          {
+            "epoch": 5,
+            "loss": 1.5393700102965038,
+            "truth_margin": 0.6315698474645615
+          },
+          {
+            "epoch": 6,
+            "loss": 1.4225503613551458,
+            "truth_margin": 0.4889167249202728
+          },
+          {
+            "epoch": 7,
+            "loss": 1.44653300344944,
+            "truth_margin": 0.3727559298276901
+          },
+          {
+            "epoch": 8,
+            "loss": 1.3082286129395166,
+            "truth_margin": 0.20133574306964874
+          }
+        ],
+        "model_hash": "60a8702f584fbd5aa6d71da7a1aa9570b546c99dbe2d4b0f59736556db296cd1"
+      },
+      "BEATRIZ": {
+        "b_updates": 382,
+        "base_perplexity": 102.5137336652246,
+        "final_perplexity": 126.2962325367815,
+        "final_margin": 3.453402228653431,
+        "history": [
+          {
+            "epoch": 1,
+            "loss": 2.2956096356113753,
+            "truth_margin": 0.6528437733650208
+          },
+          {
+            "epoch": 2,
+            "loss": 2.2160796840140162,
+            "truth_margin": 0.8727183043956757
+          },
+          {
+            "epoch": 3,
+            "loss": 1.8088607132434844,
+            "truth_margin": 1.1559477746486664
+          },
+          {
+            "epoch": 4,
+            "loss": 1.6455068215727806,
+            "truth_margin": 1.5445274710655212
+          },
+          {
+            "epoch": 5,
+            "loss": 1.3964241548460357,
+            "truth_margin": 1.986916333436966
+          },
+          {
+            "epoch": 6,
+            "loss": 1.1308476340770721,
+            "truth_margin": 2.529548689723015
+          },
+          {
+            "epoch": 7,
+            "loss": 0.9464886118383968,
+            "truth_margin": 3.1602154821157455
+          },
+          {
+            "epoch": 8,
+            "loss": 0.9566420918824722,
+            "truth_margin": 3.453402228653431
+          }
+        ],
+        "model_hash": "fbc876376122d7c080c68f4e4bd3ba8f84e98bcafc5a2c5f412110d5876dba19"
+      }
+    }
+  }
+}
