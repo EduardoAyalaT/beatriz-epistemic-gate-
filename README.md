@@ -120,6 +120,13 @@ The Beatriz epistemic gate and the corrective training protocols presented in th
 - **Commercial licensing and collaborations:** `danterunar@yahoo.com`
 
 For code issues, use the GitHub Issues section of this repository.
+## Sustain this research
+
+Running Beatriz (EXP08–EXP14) requires GPU and hardware. If these results or the epistemic gate mechanism are useful to your work, your support keeps the open record and future validation (EXP14) alive.
+
+This is not a commercial transaction ([PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0/)).
+
+👉 [Donate via PayPal](https://paypal.me/EAyalaTovar)
 
 ## License
 
