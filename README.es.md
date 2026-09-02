@@ -1,5 +1,5 @@
 ﻿Markdown
-# Beatriz Epistemic Gate
+# Beatriz Epistemic Gate   
 
 **Autor:** Eduardo Ayala Tovar  
 **Año:** 2026  
@@ -120,6 +120,13 @@ La compuerta epistémica Beatriz y los protocolos de entrenamiento correctivo pr
 - **Licencias comerciales y colaboraciones:** `danterunar@yahoo.com`
 
 Para problemas con el código, usa la sección de Issues de GitHub en este repositorio.
+## Sostén esta investigación
+
+Ejecutar Beatriz (EXP08–EXP14) requiere GPU y hardware. Si los resultados o la compuerta epistémica te son útiles, tu apoyo mantiene el registro abierto y la validación futura (EXP14).
+
+No es una transacción comercial ([PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0/)).
+
+👉 [Apoyar con PayPal](https://paypal.me/EAyalaTovar)
 
 ## Licencia
 
