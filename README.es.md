@@ -120,13 +120,19 @@ La compuerta epistémica Beatriz y los protocolos de entrenamiento correctivo pr
 - **Licencias comerciales y colaboraciones:** `danterunar@yahoo.com`
 
 Para problemas con el código, usa la sección de Issues de GitHub en este repositorio.
-## Sostén esta investigación
+## Apoyo a la investigación
 
-Ejecutar Beatriz (EXP08–EXP14) requiere GPU y hardware. Si los resultados o la compuerta epistémica te son útiles, tu apoyo mantiene el registro abierto y la validación futura (EXP14).
+Beatriz se desarrolla con recursos limitados.
+El código y los resultados de EXP08 y EXP09 son públicos y se pueden reproducir sin donar.
 
-No es una transacción comercial ([PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0/)).
+Si quieres apoyar cómputo, almacenamiento o la publicación posterior de EXP10–EXP15:
 
-👉 [Apoyar con PayPal](https://paypal.me/EAyalaTovar)
+[Apoyar con PayPal]( https://www.paypal.com/paypalme/EAyalaTovar)
+
+Las donaciones son voluntarias.
+No constituyen una transacción comercial ni otorgan derechos de uso comercial.
+El uso comercial requiere autorización según la PolyForm Noncommercial License 1.0.0.
+
 
 ## Licencia
 
