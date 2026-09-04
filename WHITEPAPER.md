@@ -4,7 +4,7 @@ Year: 2026
 License: PolyForm Noncommercial License 1.0.0
 Affiliation: Independent Research / AI Sovereignty
 Orchestration Hardware: Toshiba Satellite U205 (2006, 2 GB RAM)
-Experimental Compute Engine: Kaggle T4 x2 (Total cost: $0 USD)
+Experimental Compute Engine: Kaggle T4 x2 (Total cost: $0 USD) 
 ________________________________________
 Abstract
 The contemporary artificial intelligence industry sustains the dogma that advanced research in model safety, alignment, and defense requires massive infrastructure and multi-million-dollar budgets. This paper demonstrates the contrary by presenting Beatriz, a lightweight epistemic gate architecture designed to prevent surgical data poisoning during fine-tuning. Through a series of 16 systematic experiments (EXP08–EXP16) validated across 5 architectures (from 124M GPT-2 to 3.8B Phi-3-mini-4k-instruct), we demonstrate that epistemic poisoning is invisible to conventional aggregate metrics, but can be effectively counteracted by introducing a non-invasive defensive proxy between the generative source and the learning model. Results confirm that filtering based on a static anchor corpus provides 65% of the defensive benefit without altering the student training loop, while an additional contrastive loss term (Softplus) consolidates a robust truth margin (+4.19 ± 0.08 on a scaled held-out set of 30 multi-domain facts), maintaining bit-exact determinism and a decision latency of ~0.1 ms per call.
