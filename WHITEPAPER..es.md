@@ -27,7 +27,7 @@ Para resolver este problema sin obligar a reestructurar los complejos bucles de 
 En su rama avanzada (Beatriz), el sistema opera modificando la optimización mediante una pérdida compuesta:
 Ltotal=α⋅Lce+β⋅LcontrastivaLtotal=α⋅Lce+β⋅Lcontrastiva
 •	LceLce (α=0.5α=0.5): Pérdida de máxima verosimilitud estándar (Cross-Entropy) para preservar la fluidez lingüística.
-•	LcontrastivaLcontrastiva (β=1.0β=1.0): Término basado en una función Softplus sobre el margen entre las probabilidades logarítmicas de la verdad y la falsedad detectada: Este termino no satura mientras el margen sea finito, manteniendo presión activa sobre el modelo incluso después de que la entropıa cruzada se agote. Este termino no satura mientras el margen sea finito, manteniendo presión activa sobre el modelo incluso después de que la entropıa cruzada se agote. 
+•	LcontrastivaLcontrastiva (β=1.0β=1.0): Término basado en una función Softplus sobre el margen entre las probabilidades logarítmicas de la verdad y la falsedad detectada: Este termino no satura mientras el margen sea finito, manteniendo presión activa sobre el modelo incluso después de que la entropıa cruzada se agote.  
 ________________________________________
 4. Metodología Experimental
 La serie experimental abarcó múltiples arquitecturas de código abierto para demostrar la universalidad del fenómeno:
