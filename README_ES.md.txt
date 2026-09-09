@@ -1,4 +1,3 @@
-Markdown
 # Beatriz Epistemic Gate: Defensa contra Envenenamiento en Fine-Tuning
 
 **Autor:** Eduardo Ayala Tovar - 2026
