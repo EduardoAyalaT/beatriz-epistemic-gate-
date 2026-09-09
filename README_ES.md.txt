@@ -1,24 +1,27 @@
 # Beatriz Epistemic Gate: Defensa contra Envenenamiento en Fine-Tuning
 
-**Autor:** Eduardo Ayala Tovar - 2026
-**Licencia:** PolyForm Noncommercial License 1.0.0
-**Hardware:** Toshiba Satellite U205 (2006, 2GB RAM) + Kaggle T4 x2 - Costo $0 USD
+**Autor:** Eduardo Ayala Tovar - 2026  
+**Licencia:** PolyForm Noncommercial License 1.0.0  
+**Hardware:** Toshiba Satellite U205 (2006, 2GB RAM) + Kaggle T4 x2 - Costo $0 USD  
 **Afiliación:** Investigación Independiente / Soberanía en IA
 
 > **Nota de honestidad:** Los porcentajes tipo "34% de mejora" del Manual son ilustrativos e hipotéticos con fines pedagógicos. Los únicos resultados empíricos verificados con hash SHA-256 son los de EXP01 a EXP16 de esta tabla.
 
 ### Resumen
+
 La industria asume que defender un LLM requiere clusters millonarios. Este proyecto demuestra lo contrario. Presentamos **Beatriz**, un proxy epistémico no invasivo que evita que un modelo aprenda mentiras aunque el 70% del flujo esté envenenado.
 
 Sin defensa, el margen de verdad colapsa a `≈0.0` - indiferencia exacta entre verdad y mentira - mientras la perplejidad parece mejorar. Con Beatriz, el margen se preserva y generaliza a hechos que nunca vio.
 
 ### El Problema: Envenenamiento Quirúrgico e Invisible
+
 En EXP05, EXP06, EXP07, EXP10, EXP11, EXP13, EXP14, la rama `NONE` colapsa. Es el fenómeno del Manual. Los monitores basados en PPL son ciegos.
 
 ### La Solución: Beatriz
-1.  **Corpus Ancla Inmutable:** 8 hechos en EXP07-14, 36 hechos en EXP16 [6 train + 30 held-out], con SHA-256 + OpenTimestamps .ots
-2.  **Compuerta Densa Vectorial:** Oráculo congelado offline, `embedding = mean hidden_states[-1]`, similitud coseno → VERIFIED / CONTRADICTED / UNKNOWN / INVALID
-3.  **Pérdida Compuesta:** `L_total = α•L_ce + β•L_verdad` donde `L_verdad = Softplus(MARGIN + logP(mentira) - logP(verdad))`
+
+1. **Corpus Ancla Inmutable:** 8 hechos en EXP07-14, 36 hechos en EXP16 [6 train + 30 held-out], con SHA-256 + OpenTimestamps .ots
+2. **Compuerta Densa Vectorial:** Oráculo congelado offline, `embedding = mean hidden_states[-1]`, similitud coseno → VERIFIED / CONTRADICTED / UNKNOWN / INVALID
+3. **Pérdida Compuesta:** `L_total = α•L_ce + β•L_verdad` donde `L_verdad = Softplus(MARGIN + logP(mentira) - logP(verdad))`
 
 ### Serie Experimental 01-16 - Solo lo que corrió de verdad
 
@@ -44,19 +47,24 @@ En EXP05, EXP06, EXP07, EXP10, EXP11, EXP13, EXP14, la rama `NONE` colapsa. Es e
 **5 arquitecturas:** GPT-2 124M, Qwen-2.5-0.5B, TinyLlama-1.1B, Pythia-1.4B, Phi-3-mini 3.8B
 
 ### Paquetes con Prueba de Tiempo - Tus 4 hashes de tu Toshiba
+
+```
 exp_calibracion_01-07.rar -> 7c0ba312ec1883b8aab3d54b0493fc0c9a7185087135fb80a6fc966d8b19543b
 beatriz-epistemic-gate.rar -> 54fd6538619d516762ad8a9ab3028b9db0b651ae42216b6d131da358fcaf947a
 beatriz-epistemic-gate-exp-10-15.rar -> 54e2338bce9a15ff8c2a1ef57500dfdcbc4149344749cf4ea3c1301748961018
 exp16.rar -> 9958a3889dffa3dd11d220322da188fdc8347355ef219cd2a43b04932e43a327
+```
 
 ### Resultados Clave - EXP15 Ablación Quirúrgica
-BASE: +1.34 train / +1.90 held-out / PPL 12.7
-NONE: -0.03±0.02 / +3.57±0.17 / PPL 30.9
-GATE_ONLY: +7.46±0.24 / +5.08±0.09 / PPL 58.8 - Aporta 65% sin tocar el loop
-BEATRIZ: +10.13±0.07 / +5.91±0.07 / PPL 86.3 - Añade 35% restante
+
+BASE: +1.34 train / +1.90 held-out / PPL 12.7  
+NONE: -0.03±0.02 / +3.57±0.17 / PPL 30.9  
+GATE_ONLY: +7.46±0.24 / +5.08±0.09 / PPL 58.8 - Aporta 65% sin tocar el loop  
+BEATRIZ: +10.13±0.07 / +5.91±0.07 / PPL 86.3 - Añade 35% restante  
 Gate: 0.107 ms/llamada - VRAM 7.97 GB
 
 ### Puente: Del Manual Ideal al Prototipo Soberano $0
+
 | Manual pide laboratorio | Beatriz con $0 |
 |---|---|
 | Corpus masivo con API | 36 hechos con hash + .ots |
@@ -65,8 +73,11 @@ Gate: 0.107 ms/llamada - VRAM 7.97 GB
 | Ledger + rollback | model_hash, adapter_sha256, prereg_sha, sanity_sha, R1/R2/R3 |
 
 ### Verificación
+
+```bash
 certutil -hashfile exp_calibracion_01-07.rar SHA256
 ots verify exp_calibracion_01-07.rar.ots
+```
 
 ## Autoría
 
