@@ -68,7 +68,6 @@ Gate: 0.107 ms/llamada - VRAM 7.97 GB
 ### Verificación
 certutil -hashfile exp_calibracion_01-07.rar SHA256
 ots verify exp_calibracion_01-07.rar.ots
-text
 
 ## Autoría
 
