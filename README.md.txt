@@ -1,5 +1,4 @@
-﻿Markdown
-# Beatriz Epistemic Gate: Defense Against Fine-Tuning Poisoning
+﻿# Beatriz Epistemic Gate: Defense Against Fine-Tuning Poisoning
 
 **Author:** Eduardo Ayala Tovar - 2026
 **License:** PolyForm Noncommercial License 1.0.0
