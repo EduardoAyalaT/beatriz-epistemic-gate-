@@ -1,4 +1,4 @@
-﻿Markdown
+Markdown
 # Beatriz Epistemic Gate: Defensa contra Envenenamiento en Fine-Tuning
 
 **Autor:** Eduardo Ayala Tovar - 2026
@@ -86,5 +86,5 @@ Para problemas con el código, usa la sección de Issues de GitHub en este repos
 
 Este proyecto está licenciado bajo [PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0/). Se permite uso no comercial, investigación y fines educativos. El uso comercial requiere autorización explícita del autor.
 
-### Evaluación pública
-https://arena.ai/c/01a07f4c-3455-756f-ae3e-852f1b0e4804
+Evaluación pública https://arena.ai/c/01a07f4c-3455-756f-ae3e-852f1b0e4804
+
