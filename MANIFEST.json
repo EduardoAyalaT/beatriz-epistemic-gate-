@@ -4,6 +4,7 @@
   "license": "PolyForm Noncommercial License 1.0.0",
   "hardware": "Toshiba Satellite U205 2006 + Kaggle T4 x2 - Costo $0",
   "seeds": [11, 22, 33],
+  "update": "Sep 9, 2026",
   "bundles_con_ots": {
     "01_07": {
       "file": "exp_calibracion_01-07.rar",
@@ -43,7 +44,8 @@
   }
 }
 
-text
+Verificación separada (fuera del archivo, sin contaminar):
+
 
 ots stamp exp_calibracion_01-07.rar
 ots stamp beatriz-epistemic-gate.rar
@@ -51,16 +53,8 @@ ots stamp beatriz-epistemic-gate-exp-10-15.rar
 ots stamp exp16.rar
 ots stamp MANIFEST.json
 
-01-07 calibración anti-colapso
-exp_calibracion_01-07.rar
-7c0ba312ec1883b8aab3d54b0493fc0c9a7185087135fb80a6fc966d8b19543b
-08-09 publicados en GitHub
-beatriz-epistemic-gate.rar
-54fd6538619d516762ad8a9ab3028b9db0b651ae42216b6d131da358fcaf947a
-10-15 escalado moderno
-beatriz-epistemic-gate-exp-10-15.rar
-54e2338bce9a15ff8c2a1ef57500dfdcbc4149344749cf4ea3c1301748961018
-16 cierre n=30
-exp16.rar
-9958a3889dffa3dd11d220322da188fdc8347355ef219cd2a43b04932e43a327
+01-07 calibración anti-colapso / 7c0ba312...
+08-09 publicados / 54fd653...
+10-15 escalado / 54e233...
+16 cierre n=30 / 9958a388...
 
