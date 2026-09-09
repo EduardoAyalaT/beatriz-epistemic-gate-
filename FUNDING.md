@@ -1,4 +1,3 @@
-﻿Markdown
 ## Apoyo al proyecto y a la persona
 
 Beatriz no tiene financiamiento. Su autor trabaja sin salario desde hace meses. Hay dos necesidades separadas:
