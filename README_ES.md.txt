@@ -49,7 +49,6 @@ exp_calibracion_01-07.rar -> 7c0ba312ec1883b8aab3d54b0493fc0c9a7185087135fb80a6f
 beatriz-epistemic-gate.rar -> 54fd6538619d516762ad8a9ab3028b9db0b651ae42216b6d131da358fcaf947a
 beatriz-epistemic-gate-exp-10-15.rar -> 54e2338bce9a15ff8c2a1ef57500dfdcbc4149344749cf4ea3c1301748961018
 exp16.rar -> 9958a3889dffa3dd11d220322da188fdc8347355ef219cd2a43b04932e43a327
-text
 
 ### Resultados Clave - EXP15 Ablación Quirúrgica
 BASE: +1.34 train / +1.90 held-out / PPL 12.7
