@@ -42,13 +42,15 @@
     }
   }
 }
----
+
+text
+
 ots stamp exp_calibracion_01-07.rar
 ots stamp beatriz-epistemic-gate.rar
 ots stamp beatriz-epistemic-gate-exp-10-15.rar
 ots stamp exp16.rar
 ots stamp MANIFEST.json
----
+
 01-07 calibración anti-colapso
 exp_calibracion_01-07.rar
 7c0ba312ec1883b8aab3d54b0493fc0c9a7185087135fb80a6fc966d8b19543b
