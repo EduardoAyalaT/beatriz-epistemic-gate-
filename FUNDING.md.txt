@@ -1,0 +1,20 @@
+﻿Markdown
+## Apoyo al proyecto y a la persona
+
+Beatriz no tiene financiamiento. Su autor trabaja sin salario desde hace meses. Hay dos necesidades separadas:
+
+**A. Sustento del investigador**  
+Monto: $5,000 MXN mensuales (≈ $286 USD)  
+Destino: comida, renta, servicios básicos en México.  
+Sin justificación técnica. Es para que yo pueda seguir investigando.
+
+**B. Costos directos del experimento (EXP17)**  
+Monto: $60 USD (una sola vez)  
+Destino: 100 horas T4, OpenTimestamps, publicación.  
+Con registro de gastos y hash SHA-256.
+
+**Cómo donar:**  
+PayPal: https://www.paypal.com/paypalme/EAyalaTovar  
+Indica en el comentario: "Sustento" o "EXP17".
+
+Las donaciones para sustento son personales. Las donaciones para EXP17 son rastreables. Ninguna otorga derechos comerciales.

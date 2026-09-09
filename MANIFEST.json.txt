@@ -1,0 +1,64 @@
+﻿{
+  "project": "Beatriz Epistemic Gate - 16 experimentos",
+  "author": "Eduardo Ayala Tovar - 2026",
+  "license": "PolyForm Noncommercial License 1.0.0",
+  "hardware": "Toshiba Satellite U205 2006 + Kaggle T4 x2 - Costo $0",
+  "seeds": [11, 22, 33],
+  "bundles_con_ots": {
+    "01_07": {
+      "file": "exp_calibracion_01-07.rar",
+      "sha256": "7c0ba312ec1883b8aab3d54b0493fc0c9a7185087135fb80a6fc966d8b19543b",
+      "ots": "exp_calibracion_01-07.rar.ots"
+    },
+    "08_09": {
+      "file": "beatriz-epistemic-gate.rar",
+      "sha256": "54fd6538619d516762ad8a9ab3028b9db0b651ae42216b6d131da358fcaf947a",
+      "ots": "beatriz-epistemic-gate.rar.ots",
+      "inner": {
+        "exp08": "c93ba4b74ecb8ade32f0f645761c1441382c612105bf6b454d5fd9e62a3d61e2",
+        "exp09": "f4382f16e5cd1a1877fbcefcd37d98d763b10e054020cb4233295940bd2b6251"
+      }
+    },
+    "10_15": {
+      "file": "beatriz-epistemic-gate-exp-10-15.rar",
+      "sha256": "54e2338bce9a15ff8c2a1ef57500dfdcbc4149344749cf4ea3c1301748961018",
+      "ots": "beatriz-epistemic-gate-exp-10-15.rar.ots",
+      "inner": {
+        "exp10": "e894eaf462ca00e40caea0ca13a8eb8df5445bf938d4e2b235bf844110c57731",
+        "exp11": "4c0de9343412777ab592073aba999977be86cd23e0bd1bf4fac4cf89a9a8bcab",
+        "exp12": "09a1ad451546493c6143788959acff580f47145b5f43a3f87d87e117c7a43102",
+        "exp13": "2c48c7020a420ee6adc447efbf0bb668731f48e2bf2f1b51eecab921a9843152",
+        "exp14": "2d71e2a7bf24e6132f2f2e7304ec1a91e38e113763bee3029c17a9ef34c35f58",
+        "exp15": "d95ac8c87fe13068bb0ffa7c0699a27c8a9d7c915d42094ff57b3cb4b2b008cd"
+      }
+    },
+    "16": {
+      "file": "exp16.rar",
+      "sha256": "9958a3889dffa3dd11d220322da188fdc8347355ef219cd2a43b04932e43a327",
+      "ots": "exp16.rar.ots",
+      "inner": {
+        "exp16": "27eda691cad2b93c1181556eb2313f0d0f9b0d86e0cb03610989ccc507b4799f"
+      }
+    }
+  }
+}
+
+ots stamp exp_calibracion_01-07.rar
+ots stamp beatriz-epistemic-gate.rar
+ots stamp beatriz-epistemic-gate-exp-10-15.rar
+ots stamp exp16.rar
+ots stamp MANIFEST.json
+
+01-07 calibración anti-colapso
+exp_calibracion_01-07.rar
+7c0ba312ec1883b8aab3d54b0493fc0c9a7185087135fb80a6fc966d8b19543b
+08-09 publicados en GitHub
+beatriz-epistemic-gate.rar
+54fd6538619d516762ad8a9ab3028b9db0b651ae42216b6d131da358fcaf947a
+10-15 escalado moderno
+beatriz-epistemic-gate-exp-10-15.rar
+54e2338bce9a15ff8c2a1ef57500dfdcbc4149344749cf4ea3c1301748961018
+16 cierre n=30
+exp16.rar
+9958a3889dffa3dd11d220322da188fdc8347355ef219cd2a43b04932e43a327
+
