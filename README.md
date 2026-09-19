@@ -179,7 +179,6 @@ text
 
 Verify a bundle:
 
-```bash
 sha256sum exp16.rar          # compare with MANIFEST.json
 ots verify exp16.rar.ots     # OpenTimestamps proof
 Run on Kaggle: open the notebook, enable a T4 GPU, run all cells. Base models download from the Hugging Face Hub (GPT-2 is also included offline, hash c7d00560…20373). Total wall-clock for EXP16 was ~22 min.
@@ -210,31 +209,39 @@ ________________________________________
 8. Sovereign governance context
 Beatriz is the training-time enforcement component of a broader architecture whose goal is that model updates be traceable, reviewable and reversible: what data was admitted, on what evidence, which parameters changed, and when a rollback should fire. The broader stack is described in the whitepaper; only the gate and the ledger fields above are implemented and tested in this repository.
 ________________________________________
-Appendix: integrity records
-Seeds: [11, 22, 33] • GPT-2 offline model: c7d00560d8910fbed77ffad4065dee5011c41ba401b1064e749c498ba9e20373
-EXP	SHA-256
-01	713ffa6227b68a9837a11f245b8c4e52d11b343d7f2d0c8f4af916edee4966ae
-02	4b3d424f308943ce41c3d6c8f11b8c99130e1eb39fb380ab4f42e7ed1705947e
-03	369c5cec029b792744978a9c81434ff46528be5fee49377c621a5f67c9441c85
-04	ed466d516acdd202bd4c71d76e6919422d6dff00df019bdd6ac55e618d44ee86
-05	97359f0464d7a7f7c33a87bca8a3d9e66b212495f5152c4603105ee1493626c1 (prereg 57691ac0…e69f9e, sanity 2ee4949d…ac116b)
-06	b2e0e62a84b1ed19f97657c36308076a44cae42c806b2022bcfd19a55a559ed5
-07	5e3da9dca9162f62c6aac94175133e9cbf70ac101389f6714afc24d1b8273483
-08	c93ba4b74ecb8ade32f0f645761c1441382c612105bf6b454d5fd9e62a3d61e2
-09	f4382f16e5cd1a1877fbcefcd37d98d763b10e054020cb4233295940bd2b6251
-10	e894eaf462ca00e40caea0ca13a8eb8df5445bf938d4e2b235bf844110c57731
-11	4c0de9343412777ab592073aba999977be86cd23e0bd1bf4fac4cf89a9a8bcab
-12	09a1ad451546493c6143788959acff580f47145b5f43a3f87d87e117c7a43102
-13	2c48c7020a420ee6adc447efbf0bb668731f48e2bf2f1b51eecab921a9843152
-14	2d71e2a7bf24e6132f2f2e7304ec1a91e38e113763bee3029c17a9ef34c35f58
-15	d95ac8c87fe13068bb0ffa7c0699a27c8a9d7c915d42094ff57b3cb4b2b008cd
-16	27eda691cad2b93c1181556eb2313f0d0f9b0d86e0cb03610989ccc507b4799f
-Bundles
-File	SHA-256
-exp_calibracion_01-07.rar	7c0ba312ec1883b8aab3d54b0493fc0c9a7185087135fb80a6fc966d8b19543b
-beatriz-epistemic-gate.rar	54fd6538619d516762ad8a9ab3028b9db0b651ae42216b6d131da358fcaf947a
-beatriz-epistemic-gate-exp-10-15.rar	54e2338bce9a15ff8c2a1ef57500dfdcbc4149344749cf4ea3c1301748961018
-exp16.rar	9958a3889dffa3dd11d220322da188fdc8347355ef219cd2a43b04932e43a327
+## Appendix: integrity records
+
+**Seeds:** `[11, 22, 33]` · **GPT-2 offline model:** `c7d00560d8910fbed77ffad4065dee5011c41ba401b1064e749c498ba9e20373`
+
+| EXP | SHA-256 (report) |
+|---|---|
+| 01 | `713ffa6227b68a9837a11f245b8c4e52d11b343d7f2d0c8f4af916edee4966ae` |
+| 02 | `4b3d424f308943ce41c3d6c8f11b8c99130e1eb39fb380ab4f42e7ed1705947e` |
+| 03 | `369c5cec029b792744978a9c81434ff46528be5fee49377c621a5f67c9441c85` |
+| 04 | `ed466d516acdd202bd4c71d76e6919422d6dff00df019bdd6ac55e618d44ee86` |
+| 05 | `97359f0464d7a7f7c33a87bca8a3d9e66b212495f5152c4603105ee1493626c1` (prereg `57691ac08801e38c63b346579f22091dd0e5da2b7c10ded63a909c678be69f9e`, sanity `2ee4949d9bb750afd356d5a7a9009b98ef8dcc014e1369bbb065d7aea9ac116b`) |
+| 06 | `b2e0e62a84b1ed19f97657c36308076a44cae42c806b2022bcfd19a55a559ed5` |
+| 07 | `5e3da9dca9162f62c6aac94175133e9cbf70ac101389f6714afc24d1b8273483` |
+| 08 | `c93ba4b74ecb8ade32f0f645761c1441382c612105bf6b454d5fd9e62a3d61e2` |
+| 09 | `f4382f16e5cd1a1877fbcefcd37d98d763b10e054020cb4233295940bd2b6251` |
+| 10 | `e894eaf462ca00e40caea0ca13a8eb8df5445bf938d4e2b235bf844110c57731` |
+| 11 | `4c0de9343412777ab592073aba999977be86cd23e0bd1bf4fac4cf89a9a8bcab` |
+| 12 | `09a1ad451546493c6143788959acff580f47145b5f43a3f87d87e117c7a43102` |
+| 13 | `2c48c7020a420ee6adc447efbf0bb668731f48e2bf2f1b51eecab921a9843152` |
+| 14 | `2d71e2a7bf24e6132f2f2e7304ec1a91e38e113763bee3029c17a9ef34c35f58` |
+| 15 | `d95ac8c87fe13068bb0ffa7c0699a27c8a9d7c915d42094ff57b3cb4b2b008cd` |
+| 16 | `27eda691cad2b93c1181556eb2313f0d0f9b0d86e0cb03610989ccc507b4799f` |
+| GUARD v0.2 | `7b112e9f16e33b31a94f4059f71ec5af06001be56ebe43fc0e4ec4d3396e0175` (smoke harness, 6 cases) |
+
+**Bundles**
+
+| File | SHA-256 |
+|---|---|
+| `exp_calibracion_01-07.rar` | `7c0ba312ec1883b8aab3d54b0493fc0c9a7185087135fb80a6fc966d8b19543b` |
+| `beatriz-epistemic-gate.rar` | `54fd6538619d516762ad8a9ab3028b9db0b651ae42216b6d131da358fcaf947a` |
+| `beatriz-epistemic-gate-exp-10-15.rar` | `54e2338bce9a15ff8c2a1ef57500dfdcbc4149344749cf4ea3c1301748961018` |
+| `exp16.rar` | `9958a3889dffa3dd11d220322da188fdc8347355ef219cd2a43b04932e43a327` |
+| `beatriz guard 02-2/beatriz guard 02-2.rar` (BEATRIZ-GUARD v0.2) | `821448744a2e871283ec48d3f085e86c51e68dbca74ab3e2a4dd926700833a2e` |
 ________________________________________
 Authorship, contact, license
 Beatriz Epistemic Gate and the corrective-training protocols were created by Eduardo Ayala Tovar (2026). Copyright notices, license terms and cryptographic hashes are included to establish a public record of authorship.
